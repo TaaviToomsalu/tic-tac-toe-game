@@ -1,14 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+
+import * as serviceWorker from "./serviceWorker";
+import Square from "./components/square";
+import Board from "./components/board";
+import Game from "./components/game";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Game />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
